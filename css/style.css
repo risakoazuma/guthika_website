@@ -252,13 +252,13 @@ header .nav-list .active a{
     font-weight: bold;
 }
 .order-area{
-    background: url(../img/DSC09407.jpeg) no-repeat center center;
+    background: url(../img/howto/how_to_order.jpg) no-repeat center center;
     background-size: cover;
     animation-delay: 1s;
     margin-bottom: 128px;
 }
 .price-area{
-    background: url(../img/guthika_logo_clear.png) no-repeat center center;
+    background: url(../img/price.jpg) no-repeat center center;
     background-size: cover;
     animation-delay: 1.3s;
 }
@@ -328,7 +328,7 @@ footer nav{
 .footer-nav-global{
     display: flex;
     justify-content: space-between;
-    width: 265px;
+    width: 400px;
     margin: 0 auto 24px;
 }
 .footer-nav-global a{
