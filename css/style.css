@@ -369,11 +369,16 @@ footer small{
 @media(max-width: 767px){
     /*  header
     --------------------------------*/
-    header{
-        background: url(../img/sp/guthika_main_sp-02.png) no-repeat center center;
+/* .mobile-logo{
+        background: url(../img/guthika_logo_clear.png) no-repeat center center;
         background-size: auto;
+        margin-bottom: 32px;
+        } */
+    header{
+        background: url(../img/guthika_main.png) no-repeat center center;
+        background-size: cover;
     }
-    header .menu-button{
+header .menu-button{
         display: block;
         position: fixed; /* 追加 *//* 変更 */
         top: 16px;
@@ -383,7 +388,7 @@ footer small{
         height: 24px; /* 追加 */
     }
     /* 追加 */
-    header .menu-button span{
+header .menu-button span{
         position: absolute;
         width: 32px;
         height: 4px;
@@ -396,32 +401,32 @@ footer small{
         transition-timing-function: ease-in-out;
     }
     /* 追加 */
-    header .menu-button span:nth-of-type(1){
+header .menu-button span:nth-of-type(1){
         top: 0;
     }
     /* 追加 */
-    header .menu-button span:nth-of-type(2){
+header .menu-button span:nth-of-type(2){
         top: 10px;
     }
     /* 追加 */
-    header .menu-button span:nth-of-type(3){
+header .menu-button span:nth-of-type(3){
         top: 20px;
     }
     /* 追加 */
-    header .menu-button.active span:nth-of-type(1){
+header .menu-button.active span:nth-of-type(1){
         top: 0;
         transform: translateY(12px) rotate(-45deg);
     }
     /* 追加 */
-    header .menu-button.active span:nth-of-type(2){
+header .menu-button.active span:nth-of-type(2){
         opacity: 0;
     }
     /* 追加 */
-    header .menu-button.active span:nth-of-type(3){
+header .menu-button.active span:nth-of-type(3){
         top: 0;
         transform: translateY(12px) rotate(-135deg);
     }
-    header nav{
+header nav{
         position: absolute;
         bottom: 0;
         left: 0;
@@ -440,44 +445,44 @@ footer small{
         transition-delay: 0;
         transition-timing-function: ease-in-out;
     }
-    header nav.active{
+header nav.active{
         opacity: 1; /* 追加 */
         pointer-events: auto; /* 追加 */
     }
-    header .container{
+header .container{
         display: block;
     }
-    header h2{
+header h2{
         padding: 80px 0 0 0;
         margin: 0 auto 40px auto;
     }
-    header .nav-list{
+ header .nav-list{
         display: block;
         width: 100%;
         height: auto;
         padding: 40px 0 0 0;
     }
-    header .nav-list li{
+header .nav-list li{
         display: block;
         text-align: center;
     }
     
     /*  .main-area
     --------------------------------*/
-    .main-block{
+.main-block{
         display: block;
     }
-    .main-block section{
+.main-block section{
         width: 100%;
     }
 
     /*  .news-area
     --------------------------------*/
-    .news-block-container{
+.news-block-container{
         display: block;
         padding: 0 16px;
     }
-    .news-block{
+.news-block{
         width: 100%;
         background-color: #ffffff;
         margin: 0 0 32px 0;
