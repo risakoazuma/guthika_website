@@ -371,7 +371,7 @@ footer small{
     --------------------------------*/
     header{
         background: url(../img/sp/guthika_main_sp-02.png) no-repeat center center;
-        background-size: cover;
+        background-size: auto;
     }
     header .menu-button{
         display: block;
