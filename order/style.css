@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*  common
+--------------------------------*/
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    color: #333333;
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    line-height: 1.615;
+    font-size: 13px;
+}
+.order-chart{
+    text-align: center;
+    width: 50%;
+    }
+.btn{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    }
+}
