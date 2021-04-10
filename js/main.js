@@ -152,8 +152,10 @@ $(function(){
         // リンクの解除
         return false;
 });
-    console.log($('.o-item'))
     $('.o-item').on('click', function(){
         console.log('クリックしたよ');
+        $(this).toggleClass('on');
     });
+
+
 });

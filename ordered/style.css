@@ -28,9 +28,17 @@ h2{
     display: flex;
     margin-bottom: 128px;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 .ordered-a-area .o-item{
     width: 33.3333%;
+    cursor: pointer;
+}
+.ordered-a-area .o-item .pic{
+    transition: 0.5s ease-in-out;
+}
+.ordered-a-area .o-item:hover .pic{
+    opacity: 0.5;
 }
 .ordered-a-area .pic{
     text-align: center;
@@ -60,11 +68,20 @@ overflow: visible;
 .ordered-a-area table tr td img{
     width: 100%;
     height: auto;
+    opacity: 0;
+}
+.ordered-a-area .o-item.on table tr td img{
+    opacity: 1;
 }
 .ordered-a-area div{
     margin-bottom: 64px;
 }
-
+body{
+    padding-bottom: 200px;
+}
+.btn{
+    margin-top: px;
+}
 
 @media(max-width: 767px){
     .ordered-a-area .o-item{

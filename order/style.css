@@ -10,12 +10,11 @@ body{
     line-height: 1.615;
     font-size: 13px;
 }
-.order-chart{
+#order-chart img{
     text-align: center;
-    width: 50%;
+    width: 100%;
     }
 .btn{
     margin-top: 20px;
     margin-bottom: 50px;
     }
-}
