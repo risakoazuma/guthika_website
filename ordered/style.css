@@ -14,16 +14,44 @@ body{
 h1{
     color: #6c86a3;
     font-size: 32px;
-    margin-top: 64px;
+    margin-top: 100px;
     text-align: center;
-    margin-bottom: 12px;
+    margin-bottom: 40px;
 }
 h2{
     font-size: 15px;
     text-align: center;
+    margin-bottom: 15px;
+}
+.other-img{
+    font-size: 15px;
+    text-align: center;
     margin-bottom: 64px;
 }
-
+.ordered-a-area.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.ordered-a-area.top a{
+    width: 45%;
+    display: block;
+}
+.ordered-a-area.top a .o-item{
+    margin: 0 auto;
+    width: 100%;
+}
+.ordered-a-area.top a .o-item p{
+    text-align: center;
+}
+.ordered-a-area.top a .o-item .pic img{
+    width: 100%;
+    height: auto;
+}
+.ordered-a-area.top a .o-item .pic{
+    height: auto;
+}
 .ordered-a-area{
     display: flex;
     margin-bottom: 128px;
@@ -80,7 +108,7 @@ body{
     padding-bottom: 200px;
 }
 .btn{
-    margin-top: px;
+    margin-top: 45px;
 }
 
 @media(max-width: 767px){
