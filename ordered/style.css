@@ -101,6 +101,9 @@ overflow: visible;
 .ordered-a-area .o-item.on table tr td img{
     opacity: 1;
 }
+.ordered-a-area .o-item p{
+    margin-bottom: 20px;
+}
 .ordered-a-area div{
     margin-bottom: 64px;
 }
