@@ -84,7 +84,7 @@ overflow: visible;
 }
 .ordered-a-area .pic img{
     /* display: none; */
-    width: 100%;
+    width: auto;
     height: 100%;
 }
 .ordered-a-area table{
