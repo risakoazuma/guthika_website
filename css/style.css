@@ -218,11 +218,12 @@ header .nav-list .active a{
     text-shadow: 3px 3px 2px rgba(68, 68, 68, 0.377);
     text-align: center;
     position: absolute;
-    top: -50%;
+    top: -70px;
     right: 0;
     bottom: 0;
     left: 0;
     z-index: 10;
+    margin-top: 70px;
     margin: auto auto auto auto;
 }
 .main-block section p{
@@ -487,3 +488,4 @@ header .nav-list li{
         background-color: #ffffff;
         margin: 0 0 32px 0;
     }
+}
