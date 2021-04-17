@@ -249,8 +249,10 @@ header .nav-list .active a{
 }
 .what-area h3{
     color: #6c86a3;
-    font-size: 16px;
+    font-size: 26px;
     font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .order-area{
     background: url(../img/howto/how_to_order.jpg) no-repeat center center;
