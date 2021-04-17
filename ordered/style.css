@@ -59,7 +59,7 @@ h2{
     flex-wrap: wrap;
 }
 .ordered-a-area .o-item{
-    width: 33.3333%;
+    width: 50%;
     cursor: pointer;
 }
 .ordered-a-area .o-item .pic{
